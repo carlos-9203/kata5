@@ -29,7 +29,7 @@ public class FactorialCommand implements Command {
             public String result() {
                 return "Number out of bounds";
             }
-        }
+        };
     }
 
     private Output outputOf(int number) {
@@ -59,6 +59,6 @@ public class FactorialCommand implements Command {
             public String result() {
                 return "Not a number";
             }
-        }
+        };
     }
 }

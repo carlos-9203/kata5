@@ -6,7 +6,7 @@ import spark.Spark;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//kata 5
 public class Main {
     public static void main(String[] args) {
         commands.put("factorial", new FactorialCommand());

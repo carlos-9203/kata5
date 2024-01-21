@@ -6,7 +6,7 @@ public class FibonacciCommand implements Command{
     @Override
     public Output execute(Input input) {
         try {
-            int number = Integer.parseInt(input.get(".number"));
+            int number = Integer.parseInt(input.get(":number"));
             return isOutOfBound(number) ? outOfBoundOutput() : outputOf(number);
         } catch (NumberFormatException e){
             return nanOutput();
